@@ -7,8 +7,8 @@
 
 import pandas as pd
 
-from src.difference import Difference
-from src.report import get_file, report
+from difference import Difference
+from report import get_file, report
 
 
 @report
