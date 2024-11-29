@@ -8,8 +8,8 @@
 import pandas as pd
 import sys
 
-from difference import Difference
-from report import get_file, report
+from src.difference import Difference
+from src.report import get_file, report
 
 
 @report
