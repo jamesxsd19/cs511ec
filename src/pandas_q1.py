@@ -41,7 +41,7 @@ def pandas_q1(data_file: str, pattern_file: str) -> str:
     results = results[expected_columns]
     results = results.sort_values(by=expected_columns).reset_index(drop=True)
 
-    output_path = "out/pandas_q1.csv"
+    output_path = "pandas_q1.csv"
     results.to_csv(output_path, index=False, header=False)
 
     return output_path
